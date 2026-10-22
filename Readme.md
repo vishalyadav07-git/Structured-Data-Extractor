@@ -2,6 +2,13 @@
 
 A Python-based structured data extraction API built with FastAPI and Google Gemini. It extracts transaction information from unstructured text, such as receipts, invoices, emails, and messages, and returns normalized JSON with per-field confidence scores and human-review flags.
 
+## Live Deployment
+
+**API Documentation (Swagger UI):** https://nestack-sde-0zjg.onrender.com/docs
+
+**Endpoint:** `POST /extract`
+
+
 ## Features
 
 - Extracts seven fields: vendor name, amount, currency, date, category, description, and invoice ID.
