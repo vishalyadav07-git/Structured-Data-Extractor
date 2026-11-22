@@ -1,4 +1,4 @@
-# Nestack Structured Data Extractor
+# Structured Data Extractor
 
 A Python-based structured data extraction API built with FastAPI and Google Gemini. It extracts transaction information from unstructured text, such as receipts, invoices, emails, and messages, and returns normalized JSON with per-field confidence scores and human-review flags.
 
